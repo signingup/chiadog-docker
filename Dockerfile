@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 ARG BRANCH=main
-ARG REPO=https://github.com/martomi/chiadog.git
+ARG REPO=https://github.com/signingup/chiadog.git
 
 ENV config_dir=/root/.chiadog/config.yaml
 ENV TZ=UTC
