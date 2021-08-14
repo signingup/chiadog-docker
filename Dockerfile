@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM baseos:latest
 
 ARG BRANCH=main
 ARG REPO=https://github.com/signingup/chiadog.git
